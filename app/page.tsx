@@ -1,3 +1,6 @@
+"use client";
+
+import { FeatureCard } from "@/components/features/card";
 import { FeatureTitle } from "@/components/features/title";
 import { Hero } from "@/components/ui/hero";
 
@@ -46,7 +49,7 @@ export default function Home() {
         </div>
         <div className="sticky top-0 flex h-screen items-center w-full">
           <div className="w-full aspect-square rounded-2xl bg-gray-200">
-            div col
+            <FeatureCard gradient="from-[#f7f0ff] to-[#a78afe]" />
           </div>
         </div>
       </div>
