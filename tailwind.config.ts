@@ -8,9 +8,9 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        heading: ["Inter", "sans-serif"],
+        body: ["system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif"],
       },
     },
   },
